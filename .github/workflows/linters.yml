@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@iammouaz 
-microverseinc
-/
-linters-config
-13
-115
-427
-Code
-Issues
-4
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-linters-config/html-css/.github/workflows/linters.yml
-@SpaYco
-SpaYco Bump up outdated packages (#142)
-Latest commit dfd8253 on Apr 16
- History
- 3 contributors
-@MauricioRobayo@SpaYco@bolah2009
-48 lines (45 sloc)  1.45 KB
-  
 name: Linters
 
 on: pull_request
@@ -78,15 +46,3 @@ jobs:
           [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.stylelintrc.json
       - name: Stylelint Report
         run: npx stylelint "**/*.{css,scss}"
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
